@@ -1,4 +1,4 @@
-package com.condition.loop;
+package com.condition.loop.basicQ;
 
 public class ReverseNumber {
     public static void main(String[] args) {

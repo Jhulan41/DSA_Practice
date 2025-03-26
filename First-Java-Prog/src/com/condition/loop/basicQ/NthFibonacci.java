@@ -1,4 +1,4 @@
-package com.condition.loop;
+package com.condition.loop.basicQ;
 
 import java.util.Scanner;
 import java.util.*;
