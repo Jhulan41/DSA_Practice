@@ -15,8 +15,12 @@ public class AreaOfTriangle2 {
             int c = in.nextInt();
 
             int sp = (a + b + c) / 2;
+            if(a+b>c && b+c>a && c+a>b) {
+                System.out.println("Area of the Triangle is : " + (double) Math.sqrt(sp * (sp - a) * (sp - b) * (sp - c)));
+            }else{
+                System.out.println("Not valid sides of triangle");
+            }
 
-            System.out.println("Area of the Triangle is : " + (double) Math.sqrt(sp * (sp - a) * (sp - b) * (sp - c)));
         }
     }
 }
